@@ -52,7 +52,7 @@ function wsc_options() {
 		
 		foreach ($winners as $winner) {
 			
-			$winners_text .= "<p>Vendeor: $winner->user_nicename: <a href='mailto:$winner->user_email'>Enviar e-mail cliente ?</a> <a href='mailto:$winner->ID'>Ver Perfil</a></p>\n";
+			$winners_text .= "<p>O Vencedor é: $winner->user_nicename: <a href='mailto:$winner->user_email'>Enviar e-mail cliente ?</a> <a href='mailto:$winner->ID'>Ver Perfil</a></p>\n";
 		}
 
 		echo $winners_text;
